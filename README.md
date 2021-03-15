@@ -16,7 +16,16 @@ In this project, you'll apply what you've learned on data warehouses and AWS to 
     > pandas 
     > psycopg2
     > configparser
+    
+## Directory map
+> ROOT FOLDER
+- create_tables.py
+- dwh.cfg
+- etl.py
+- sql_queries.py
 
+Screenshot for reference:
+![directory](./screenshots/student.PNG)
 ## Instructions to run:
 - fill dwh.cfg with your redshift cluster instance / iam user (**do not upload your sensitive info on github**)
     > host
@@ -30,5 +39,21 @@ In this project, you'll apply what you've learned on data warehouses and AWS to 
 - run etl.py
     > it inserts data extracted from staging tables staging_events and staging_songs
     
-## Star Schema/ Redshift Cluster Outputs:
-[Screenshots](https://imgur.com/qk7pFgM)
+## Screenshots:
+
+![star schema](./screenshots/samp_out3.png)
+
+### songplays
+![songplays table](./screenshots/songplays.PNG)
+
+### users
+![songplays table](./screenshots/users.PNG)
+
+### time
+![songplays table](./screenshots/time.PNG)
+
+### artists
+![songplays table](./screenshots/artists.PNG)
+
+### songs
+![songplays table](./screenshots/songs.PNG)
